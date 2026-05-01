@@ -1,5 +1,9 @@
 # 💸 CryptoSplitter
 
+
+<img width="1889" height="868" alt="img1" src="https://github.com/user-attachments/assets/df6a4ce0-b74e-4e0d-a6a8-6d878a3eeead" />
+<img width="1893" height="766" alt="img2" src="https://github.com/user-attachments/assets/7f076805-8ba7-4b54-85c2-d8461a7900b9" />
+
 CryptoSplitter is a Web3 expense-splitting platform that makes group payments simple, transparent, and instant.
 
 Imagine a group of friends going out for dinner — one person pays the full bill in crypto, and CryptoSplitter automatically handles everything else. The app creates an event, adds participants with their EVM wallet addresses, calculates each person's share, and allows everyone to settle their debt with a single click.
