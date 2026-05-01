@@ -759,7 +759,7 @@ function CryptoSpliter() {
 
                         <div className="footer-bottom">
                             <div className="footer-bottom-left">
-                                <span>© {new Date().getFullYear()} CryptoSpliter. All rights reserved.</span>
+                                <span>© {new Date().getFullYear()} CryptoSplitter. All rights reserved.</span>
                             </div>
                             <div className="footer-bottom-right">
                                 <a href="#" onClick={openPrivacyPolicy}>Privacy</a>
