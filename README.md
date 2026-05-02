@@ -1,8 +1,9 @@
 # 💸 CryptoSplitter
 
 
-<img width="1889" height="868" alt="img1" src="https://github.com/user-attachments/assets/df6a4ce0-b74e-4e0d-a6a8-6d878a3eeead" />
-<img width="1893" height="766" alt="img2" src="https://github.com/user-attachments/assets/7f076805-8ba7-4b54-85c2-d8461a7900b9" />
+<img width="1892" height="822" alt="Στιγμιότυπο οθόνης 2026-05-02 114239" src="https://github.com/user-attachments/assets/3534ac98-6c22-4081-b621-214e5b68aecc" />
+<img width="1888" height="756" alt="Στιγμιότυπο οθόνης 2026-05-02 114321" src="https://github.com/user-attachments/assets/e78f8c35-8541-44a5-a248-77e8c306d3f8" />
+
 
 CryptoSplitter is a Web3 expense-splitting platform that makes group payments simple, transparent, and instant.
 
