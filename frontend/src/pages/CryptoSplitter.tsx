@@ -69,12 +69,22 @@ export const BotChain = defineChain({
     ],
 });
 
+const bnb = defineChain({
+    id: 56,
+    name: "BNB Smart Chain",
+    nativeCurrency: {
+        name: "BNB",
+        symbol: "BNB",
+        decimals: 18,
+    },
+    rpc: "https://bnb-mainnet.g.alchemy.com/v2/A3x1eRpMPLLm2ZmOGtChU",
+});
+
 import {
     base,
     arbitrum,
     sepolia,
     polygon,
-
 } from "thirdweb/chains";
 
 import MyEvents from "../components/events/MyEventsTab.tsx";
@@ -98,9 +108,10 @@ const SUPPORTED_CHAINS = [
     base,
     arbitrum,
     polygon,
+    bnb,
+    BotChain,
     sepolia,
     zksyncSepolia,
-    BotChain,
 ];
 
 const wallets = [
@@ -1201,6 +1212,12 @@ function CryptoSpliter() {
                                         />
                                     </ChainProvider>
                                     <ChainProvider chain={polygon}>
+                                        <ChainIcon
+                                            client={client}
+                                            className="chain-icon"
+                                        />
+                                    </ChainProvider>
+                                    <ChainProvider chain={bnb}>
                                         <ChainIcon
                                             client={client}
                                             className="chain-icon"
