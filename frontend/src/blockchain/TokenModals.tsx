@@ -44,6 +44,10 @@ export const TOKENS: Record<number, TokenConfig[]> = {
         { symbol: "BNB", address: "0x0000000000000000000000000000000000000000", native: true, decimals: 18 },
         { symbol: "LINK", address: "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd", native: false, decimals: 18 },
     ],
+    1868: [
+        { symbol: "ETH", address: "0x0000000000000000000000000000000000000000", native: true, decimals: 18 },
+        { symbol: "LINK", address: "0x32d8f819c8080ae44375f8d383ffd39fc642f3ec", native: false, decimals: 18 },
+    ],
     // Bot TestNet
     968: [
         { symbol: "TBOT", address: "0x0000000000000000000000000000000000000000", native: true, decimals: 18 },
