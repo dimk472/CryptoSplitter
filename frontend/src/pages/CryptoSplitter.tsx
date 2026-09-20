@@ -80,6 +80,17 @@ const bnb = defineChain({
     rpc: "https://bnb-mainnet.g.alchemy.com/v2/A3x1eRpMPLLm2ZmOGtChU",
 });
 
+const soneium = defineChain({
+    id: 1868,
+    name: "Soneium",
+    nativeCurrency: {
+        name: "Soneium Ether",
+        symbol: "ETH",
+        decimals: 18,
+    },
+    rpc: "https://soneium-mainnet.g.alchemy.com/v2/A3x1eRpMPLLm2ZmOGtChU",
+});
+
 import {
     base,
     arbitrum,
@@ -109,6 +120,7 @@ const SUPPORTED_CHAINS = [
     arbitrum,
     polygon,
     bnb,
+    soneium,
     BotChain,
     sepolia,
     zksyncSepolia,
@@ -1218,6 +1230,12 @@ function CryptoSpliter() {
                                         />
                                     </ChainProvider>
                                     <ChainProvider chain={bnb}>
+                                        <ChainIcon
+                                            client={client}
+                                            className="chain-icon"
+                                        />
+                                    </ChainProvider>
+                                    <ChainProvider chain={soneium}>
                                         <ChainIcon
                                             client={client}
                                             className="chain-icon"
