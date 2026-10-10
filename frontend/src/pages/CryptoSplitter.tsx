@@ -494,6 +494,12 @@ function SplittingApp({ walletAddress }: { walletAddress: string }) {
                 chain: activeChain,
                 transactionHash: txResult.transactionHash,
             });
+            if (receipt.status !== "success") {
+                throw new Error(
+                    `Event creation failed on-chain. No event was registered. ` +
+                    `Transaction hash: ${txResult.transactionHash}`
+                );
+            }
 
             setBlockNumber(Number(receipt.blockNumber));
 
