@@ -166,6 +166,7 @@ router.post("/", async (req, res) => {
       off_chain_id,
       chain_id,
       currency,
+      tx_hash,
       participants = [],
       splits = [],
     } = req.body;
@@ -230,6 +231,7 @@ router.post("/", async (req, res) => {
           off_chain_id: off_chain_id ?? null,
           chain_id: chain_id ?? null,
           currency: currency ?? null,
+          tx_hash: tx_hash ?? null,
         },
       ])
       .select()
